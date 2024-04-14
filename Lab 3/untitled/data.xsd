@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="datasheet" type="datasheetType"/>
+  <xs:complexType name="dataType">
+    <xs:sequence>
+      <xs:element name="x">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1.1"/>
+            <xs:enumeration value="2.2"/>
+            <xs:enumeration value="3.3"/>
+            <xs:enumeration value="4.4"/>
+            <xs:enumeration value="5.5"/>
+            <xs:enumeration value="6.6"/>
+            <xs:enumeration value="7.7"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="y">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1.01"/>
+            <xs:enumeration value="2.3"/>
+            <xs:enumeration value="3.05"/>
+            <xs:enumeration value="4.28"/>
+            <xs:enumeration value="5.75"/>
+            <xs:enumeration value="6.48"/>
+            <xs:enumeration value="7.84"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="date" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="datasheetType">
+    <xs:sequence>
+      <xs:element type="dataType" name="data" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
