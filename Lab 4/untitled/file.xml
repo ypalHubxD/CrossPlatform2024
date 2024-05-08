@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<MetroCard>
+<serNum>1</serNum>
+<usr>1 1 1 11.11.1111</usr>
+<colledge>1</colledge>
+<balance>1.0</balance>
+</MetroCard>
+<MetroCard>
+<serNum>2</serNum>
+<usr>2 2 2 22.10.2223</usr>
+<colledge>2</colledge>
+<balance>2.0</balance>
+</MetroCard>
+<User>
+<name>1</name>
+<surName>1</surName>
+<sex>1</sex>
+<birthday>11.11.1111</birthday>
+</User>
+<User>
+<name>2</name>
+<surName>2</surName>
+<sex>2</sex>
+<birthday>22.10.2223</birthday>
+</User>
+</data>
