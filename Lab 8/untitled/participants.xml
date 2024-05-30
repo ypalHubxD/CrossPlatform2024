@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1251" standalone="no"?>
+<RegisteredConferees>
+    <Conferee>
+        <name>Test1</name>
+        <family>Test1</family>
+        <organization>Test1</organization>
+        <report>Report1</report>
+        <email>email1@gmail.com</email>
+    </Conferee>
+    <Conferee>
+        <name>Test2</name>
+        <family>Test2</family>
+        <organization>Test2</organization>
+        <report>Report2</report>
+        <email>email2@gmail.com</email>
+    </Conferee>
+    <Conferee>
+        <name>Test3</name>
+        <family>Test3</family>
+        <organization>Test3</organization>
+        <report>Report3</report>
+        <email>email3@gmail.com</email>
+    </Conferee>
+</RegisteredConferees>
